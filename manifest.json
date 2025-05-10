@@ -1,6 +1,6 @@
 {
-    "name": "dアニメ ビデオ位置調整",
-    "description": "Base Level Extension",
+    "name": "dアニメ ビデオ位置調整拡張機能",
+    "description": "dAnime Video Position Adjustment Extension",
     "version": "1.0",
     "manifest_version": 3,
     "permissions": ["storage"],
