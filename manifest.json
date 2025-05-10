@@ -1,0 +1,21 @@
+{
+    "name": "dアニメ ビデオ位置調整",
+    "description": "Base Level Extension",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": ["storage"],
+    "content_scripts": [
+      {
+        "js": ["scripts/content.js"],
+        "matches": [
+          "https://animestore.docomo.ne.jp/animestore/sc_d_pc*"
+        ]
+      }
+    ],
+    "icons": {
+      "16": "images/icon_16.png",
+      "32": "images/icon_32.png",
+      "48": "images/icon_48.png",
+      "128": "images/icon_128.png"
+    }
+}
